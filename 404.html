@@ -9,7 +9,7 @@
     <embed id="main" src="" width="device-width" height="device-height">
     <script>
         const embedElement = document.getElementById("main");
-        embedElement.src = "79.35.242.252:25008/" + window.location.href;
+        embedElement.src = "79.35.242.252:25008/" + window.location.href.toString().split(window.location.host)[1];
     </script>
 </body>
 </html>
